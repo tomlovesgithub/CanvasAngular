@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CanvasFrameComponent } from './canvas-frame/canvas-frame.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CanvasFrameComponent
   ],
   imports: [
     BrowserModule,
